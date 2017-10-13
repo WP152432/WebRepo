@@ -67,19 +67,38 @@ function menu_out(e) {
 	    <%} %>
   </div>
 </nav>
-<div class="container">
-<h1>Hello, Bootstrap</h1>
-<p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-</p>
-</div>
 
-<%@ include file="footer.jsp" %>
+        <div class="container" style = "margin-top : 100px">
 
-<!-- Bootstrap js -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+          <div class="row row-offcanvas row-offcanvas-right">
 
-</body>
-</html>
+              <div class = "col-md-8">
+                <h1>힘세고 굳센 아침, 나의 이름은 왈도</h1><strike><small>영서</small></strike>
+                <br />
+                <hr />
+                <h2>Profile</h2>
+                이름 : 영서<br   />생년월일 : 00-12-02<br />현재 고등학생으로 디미고에 재학중<br /><a href = "http://blog.naver.com/jysa000" target = "_blank">블로그 운영중</a><small><strike>근래에 안한지 꽤 됐다 카더라.</strike></small>
+              </div>
+          </div><!--/row-->
+
+          <hr>
+
+          <footer>
+            <p>&copy; Company 2017</p>
+          </footer>
+
+        </div><!--/.container-->
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="../../../../assets/js/vendor/popper.min.js"></script>
+        <script src="../../../../dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="offcanvas.js"></script>
+      </body>
+    </html>
